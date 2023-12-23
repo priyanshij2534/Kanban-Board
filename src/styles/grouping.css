@@ -1,0 +1,29 @@
+.Grouping{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    min-height: 100vh;
+}
+
+@media screen and (max-width: 1200px) {
+    .Grouping {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .Grouping {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .Grouping {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .Grouping {
+        grid-template-columns: 1fr;
+    }
+}

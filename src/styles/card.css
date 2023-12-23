@@ -1,0 +1,17 @@
+.cardNameInitials{
+    font-size: 11px;
+    padding: 6px;
+}
+
+.cardBadge1{
+    left: 90%;
+    top: 90%;
+}
+
+.cardBadge2{
+    top: 4px;
+}
+
+.cardTag{
+    margin-left: 25px;
+}
